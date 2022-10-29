@@ -1,0 +1,16 @@
+banner {
+    display: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.intro {
+    position: relative;
+}
+
+.intro__img {
+    box-shadow: var(--bs);
+}

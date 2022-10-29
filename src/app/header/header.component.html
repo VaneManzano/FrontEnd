@@ -1,0 +1,27 @@
+<div class="wrapper">
+  
+    <div class="logo">
+        <img src="../assets/Logo Argentina Programa.png" alt="ARGENTINA PROGRAMA">
+    </div>
+    
+
+    <ng-container *ngIf="authService.currentUser$ |async as user; else loginButton">
+        <div class="button-login">   
+            <button mat-button id="buttons" (click)="logout()">
+                <mat-icon>logout</mat-icon>
+                Logout
+            </button>      
+        </div>
+    </ng-container>
+
+<ng-template #loginButton>
+    <butoon mat-button routerLink="login" >
+        <mat-icon>login</mat-icon>
+        Login
+
+    </butoon>
+</ng-template>
+
+   
+</div>
+

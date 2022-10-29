@@ -1,0 +1,35 @@
+.wrapper{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 1rem;
+    align-items: center;
+    align-content: center;
+    //background color
+    //background-color: bisque;
+    height: 4rem;
+    box-shadow:0 0 29px rgba($color: #000000, $alpha: 1.0);
+    z-index: 5;
+    
+
+    img{
+        display:block;
+        width: 10rem;
+       margin-left: 21px;
+    }
+    button{
+        background-color: var(orange);
+        box-shadow:0 0 9px rgba($color: #000000, $alpha: 1.0); 
+        font-family: var(Oswald);
+        align-content: center;
+        
+    }
+
+   
+  
+    
+
+
+
+}
+
+
